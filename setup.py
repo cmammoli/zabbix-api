@@ -46,4 +46,7 @@ setup(
     platforms='any',
     classifiers=CLASSIFIERS,
     include_package_data=True
+    install_requires=[         
+        'packaging'
+    ],
 )
