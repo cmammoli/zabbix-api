@@ -45,7 +45,7 @@ setup(
     py_modules=['zabbix_api'],
     platforms='any',
     classifiers=CLASSIFIERS,
-    include_package_data=True
+    include_package_data=True,
     install_requires=[         
         'packaging'
     ],
