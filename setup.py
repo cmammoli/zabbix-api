@@ -34,8 +34,8 @@ CLASSIFIERS = [
 ]
 
 setup(
-    name='zabbix-api-erigones',
-    version='0.5.5',
+    name='zabbix-api',
+    version='0.5.6',
     description='Zabbix API Python Library',
     long_description=read('README.rst'),
     url='https://github.com/erigones/zabbix-api/',
