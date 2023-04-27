@@ -51,7 +51,7 @@ except ImportError:
     import urllib.request as urllib2  # python3
 
 __all__ = ('ZabbixAPI', 'ZabbixAPIException', 'ZabbixAPIError')
-__version__ = '0.5.5'
+__version__ = '0.5.6'
 
 PARENT_LOGGER = __name__
 DATETIME_FORMAT = '%Y-%m-%d %H:%M:%S'
