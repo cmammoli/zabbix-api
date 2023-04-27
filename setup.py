@@ -14,7 +14,7 @@ except ImportError:
     from distutils.core import setup
 
 # noinspection PyPep8Naming
-from zabbix_api import __version__ as VERSION
+# from zabbix_api import __version__ as VERSION
 
 read = lambda fname: open(os.path.join(os.path.dirname(__file__), fname)).read()
 
